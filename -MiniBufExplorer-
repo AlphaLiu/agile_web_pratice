@@ -1,1 +1,1 @@
-[4:order.rb][5:new.html.erb][6:orders.yml][7:line_items.yml][8:line_item.rb][10:orders_controller.rb][11:orders_controller_test.rb][13:products_controller.rb][15:product.rb][16:routes.rb][17:Gemfile][18:index.html.erb][19:create.js.erb][20:who_bought.atom.builder]*
+[1:order_received.text.erb][2:_line_item.test.erb]*[6:orders_controller.rb][7:order_shipped.html.erb]*+[8:order_notifier_test.rb]
