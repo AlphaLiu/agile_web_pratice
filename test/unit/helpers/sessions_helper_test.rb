@@ -8,5 +8,5 @@
 #---
 require 'test_helper'
 
-class OrdersHelperTest < ActionView::TestCase
+class SessionsHelperTest < ActionView::TestCase
 end

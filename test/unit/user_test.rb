@@ -8,5 +8,8 @@
 #---
 require 'test_helper'
 
-class OrdersHelperTest < ActionView::TestCase
+class UserTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
 end

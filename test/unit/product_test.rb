@@ -9,9 +9,6 @@
 require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
-
-  fixtures :products
-
   test "product attributes must not be empty" do
     product = Product.new
     assert product.invalid?
@@ -81,13 +78,4 @@ class ProductTest < ActiveSupport::TestCase
                  product.errors[:title].join('; ')
   end
   
-  test "product title length should greater than or equal to 10" do
-    product = Product.new(title: "ruby",
-                          description: "xxx",
-                          price: 1,
-                         image_url: "fred.gif")
-    assert product.invalid?
-    assert_equal "is too short (minimum is 10 characters)",
-                  product.errors[:title].join('; ')
-  end
 end
