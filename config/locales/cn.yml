@@ -42,5 +42,15 @@ cn:
         name:   "姓名"
         email:  "E-mail"
         pay_type: "支付方式"
+    errors:
+      messages:
+        inclusion:  "不再列表内"
+        blank:  "不能为空"
+  errors:
+    template:
+      body: "有以下问题："
+      header:
+        one:  "%{model} 保存出现 1 个错误."
+        other:  "%{model} 保存出现 %{count} 个错误."
   thanks: "Thanks you for your order."
 
